@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		787E2FBF1573319C00E3D6AE /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 787E2FBD1573319C00E3D6AE /* icon_57.png */; };
+		787E2FC01573319C00E3D6AE /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 787E2FBE1573319C00E3D6AE /* icon_72.png */; };
+		787E2FD815734E0900E3D6AE /* background_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 787E2FD415734E0900E3D6AE /* background_iPad.png */; };
+		787E2FD915734E0900E3D6AE /* loginfromangellist_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 787E2FD515734E0900E3D6AE /* loginfromangellist_iPad.png */; };
+		787E2FDA15734E0900E3D6AE /* loginfromfacebook_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 787E2FD615734E0900E3D6AE /* loginfromfacebook_iPad.png */; };
+		787E2FDB15734E0900E3D6AE /* loginfromtwitter_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 787E2FD715734E0900E3D6AE /* loginfromtwitter_iPad.png */; };
+		787E69E11573A4200090DC7D /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 787E69E01573A4200090DC7D /* more.png */; };
+		787E69E41573A5580090DC7D /* follow.png in Resources */ = {isa = PBXBuildFile; fileRef = 787E69E31573A5580090DC7D /* follow.png */; };
+		7884DBEF156F8C3000679076 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7884DBEE156F8C3000679076 /* UIKit.framework */; };
+		7884DBF1156F8C3000679076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7884DBF0156F8C3000679076 /* Foundation.framework */; };
+		7884DBF3156F8C3000679076 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7884DBF2156F8C3000679076 /* CoreGraphics.framework */; };
+		7884DBF9156F8C3000679076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7884DBF7156F8C3000679076 /* InfoPlist.strings */; };
+		7884DBFB156F8C3000679076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DBFA156F8C3000679076 /* main.m */; };
+		7884DBFF156F8C3000679076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DBFE156F8C3000679076 /* AppDelegate.m */; };
+		7884DC02156F8C3000679076 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DC01156F8C3000679076 /* ViewController.m */; };
+		7884DC05156F8C3000679076 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC03156F8C3000679076 /* ViewController_iPhone.xib */; };
+		7884DC08156F8C3000679076 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC06156F8C3000679076 /* ViewController_iPad.xib */; };
+		7884DC2A156F9D9100679076 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DC28156F9D9100679076 /* LoginViewController.m */; };
+		7884DC2B156F9D9100679076 /* LoginViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC29156F9D9100679076 /* LoginViewController_iPhone.xib */; };
+		7884DC2D156F9E0600679076 /* LoginViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC2C156F9E0600679076 /* LoginViewController_iPad.xib */; };
+		7884DC36156F9FF900679076 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC2F156F9FF900679076 /* back.png */; };
+		7884DC37156F9FF900679076 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC30156F9FF900679076 /* background.png */; };
+		7884DC38156F9FF900679076 /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC31156F9FF900679076 /* filter.png */; };
+		7884DC39156F9FF900679076 /* loginfromangellist.png in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC32156F9FF900679076 /* loginfromangellist.png */; };
+		7884DC3A156F9FF900679076 /* loginfromfacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC33156F9FF900679076 /* loginfromfacebook.png */; };
+		7884DC3B156F9FF900679076 /* loginfromtwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC34156F9FF900679076 /* loginfromtwitter.png */; };
+		7884DC3C156F9FF900679076 /* navigationbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC35156F9FF900679076 /* navigationbar.png */; };
+		7884DC40156FA24600679076 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DC3E156FA24600679076 /* ContainerViewController.m */; };
+		7884DC41156FA24600679076 /* ContainerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC3F156FA24600679076 /* ContainerViewController_iPhone.xib */; };
+		7884DC43156FA2E000679076 /* ContainerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC42156FA2DF00679076 /* ContainerViewController_iPad.xib */; };
+		7884DC47156FAA5400679076 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DC45156FAA5400679076 /* ActivityViewController.m */; };
+		7884DC48156FAA5400679076 /* ActivityViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC46156FAA5400679076 /* ActivityViewController_iPhone.xib */; };
+		7884DC4C156FAA6A00679076 /* StartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DC4A156FAA6A00679076 /* StartUpViewController.m */; };
+		7884DC4D156FAA6A00679076 /* StartUpViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC4B156FAA6A00679076 /* StartUpViewController_iPhone.xib */; };
+		7884DC51156FAA8000679076 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DC4F156FAA7F00679076 /* InboxViewController.m */; };
+		7884DC52156FAA8000679076 /* InboxViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC50156FAA7F00679076 /* InboxViewController_iPhone.xib */; };
+		7884DC54156FAAA400679076 /* ActivityViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC53156FAAA300679076 /* ActivityViewController_iPad.xib */; };
+		7884DC56156FAAD000679076 /* StartUpViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC55156FAAD000679076 /* StartUpViewController_iPad.xib */; };
+		7884DC58156FAAE900679076 /* InboxViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC57156FAAE900679076 /* InboxViewController_iPad.xib */; };
+		7884DC5B156FADD100679076 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DC5A156FADD100679076 /* AsyncImageView.m */; };
+		7884DC5F156FAE1200679076 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DC5D156FAE1200679076 /* DetailsViewController.m */; };
+		7884DC60156FAE1200679076 /* DetailsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC5E156FAE1200679076 /* DetailsViewController_iPhone.xib */; };
+		7884DC62156FAE4000679076 /* DetailsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC61156FAE4000679076 /* DetailsViewController_iPad.xib */; };
+		7884DC66156FB03100679076 /* WebDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7884DC64156FB03000679076 /* WebDetailsController.m */; };
+		7884DC67156FB03100679076 /* WebDetailsController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC65156FB03000679076 /* WebDetailsController_iPhone.xib */; };
+		7884DC69156FB06100679076 /* WebDetailsController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7884DC68156FB06100679076 /* WebDetailsController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		787E2FBD1573319C00E3D6AE /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_57.png; path = Resources/icon_57.png; sourceTree = "<group>"; };
+		787E2FBE1573319C00E3D6AE /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_72.png; path = Resources/icon_72.png; sourceTree = "<group>"; };
+		787E2FD415734E0900E3D6AE /* background_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_iPad.png; path = IPad/background_iPad.png; sourceTree = "<group>"; };
+		787E2FD515734E0900E3D6AE /* loginfromangellist_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginfromangellist_iPad.png; path = IPad/loginfromangellist_iPad.png; sourceTree = "<group>"; };
+		787E2FD615734E0900E3D6AE /* loginfromfacebook_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginfromfacebook_iPad.png; path = IPad/loginfromfacebook_iPad.png; sourceTree = "<group>"; };
+		787E2FD715734E0900E3D6AE /* loginfromtwitter_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginfromtwitter_iPad.png; path = IPad/loginfromtwitter_iPad.png; sourceTree = "<group>"; };
+		787E69E01573A4200090DC7D /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more.png; path = IPhone/more.png; sourceTree = "<group>"; };
+		787E69E31573A5580090DC7D /* follow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = follow.png; path = IPhone/follow.png; sourceTree = "<group>"; };
+		7884DBEA156F8C3000679076 /* Angellist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Angellist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7884DBEE156F8C3000679076 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7884DBF0156F8C3000679076 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7884DBF2156F8C3000679076 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7884DBF6156F8C3000679076 /* Angellist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Angellist-Info.plist"; sourceTree = "<group>"; };
+		7884DBF8156F8C3000679076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7884DBFA156F8C3000679076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7884DBFC156F8C3000679076 /* Angellist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Angellist-Prefix.pch"; sourceTree = "<group>"; };
+		7884DBFD156F8C3000679076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7884DBFE156F8C3000679076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7884DC00156F8C3000679076 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7884DC01156F8C3000679076 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7884DC04156F8C3000679076 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		7884DC07156F8C3000679076 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		7884DC27156F9D9000679076 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7884DC28156F9D9100679076 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7884DC29156F9D9100679076 /* LoginViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_iPhone.xib; sourceTree = "<group>"; };
+		7884DC2C156F9E0600679076 /* LoginViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_iPad.xib; sourceTree = "<group>"; };
+		7884DC2F156F9FF900679076 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = IPhone/back.png; sourceTree = "<group>"; };
+		7884DC30156F9FF900679076 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = IPhone/background.png; sourceTree = "<group>"; };
+		7884DC31156F9FF900679076 /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = filter.png; path = IPhone/filter.png; sourceTree = "<group>"; };
+		7884DC32156F9FF900679076 /* loginfromangellist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginfromangellist.png; path = IPhone/loginfromangellist.png; sourceTree = "<group>"; };
+		7884DC33156F9FF900679076 /* loginfromfacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginfromfacebook.png; path = IPhone/loginfromfacebook.png; sourceTree = "<group>"; };
+		7884DC34156F9FF900679076 /* loginfromtwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginfromtwitter.png; path = IPhone/loginfromtwitter.png; sourceTree = "<group>"; };
+		7884DC35156F9FF900679076 /* navigationbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navigationbar.png; path = IPhone/navigationbar.png; sourceTree = "<group>"; };
+		7884DC3D156FA24600679076 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		7884DC3E156FA24600679076 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		7884DC3F156FA24600679076 /* ContainerViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerViewController_iPhone.xib; sourceTree = "<group>"; };
+		7884DC42156FA2DF00679076 /* ContainerViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerViewController_iPad.xib; sourceTree = "<group>"; };
+		7884DC44156FAA5300679076 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		7884DC45156FAA5400679076 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		7884DC46156FAA5400679076 /* ActivityViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityViewController_iPhone.xib; sourceTree = "<group>"; };
+		7884DC49156FAA6A00679076 /* StartUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUpViewController.h; sourceTree = "<group>"; };
+		7884DC4A156FAA6A00679076 /* StartUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUpViewController.m; sourceTree = "<group>"; };
+		7884DC4B156FAA6A00679076 /* StartUpViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartUpViewController_iPhone.xib; sourceTree = "<group>"; };
+		7884DC4E156FAA7F00679076 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		7884DC4F156FAA7F00679076 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		7884DC50156FAA7F00679076 /* InboxViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InboxViewController_iPhone.xib; sourceTree = "<group>"; };
+		7884DC53156FAAA300679076 /* ActivityViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityViewController_iPad.xib; sourceTree = "<group>"; };
+		7884DC55156FAAD000679076 /* StartUpViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartUpViewController_iPad.xib; sourceTree = "<group>"; };
+		7884DC57156FAAE900679076 /* InboxViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InboxViewController_iPad.xib; sourceTree = "<group>"; };
+		7884DC59156FADD000679076 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		7884DC5A156FADD100679076 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		7884DC5C156FAE1100679076 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		7884DC5D156FAE1200679076 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		7884DC5E156FAE1200679076 /* DetailsViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController_iPhone.xib; sourceTree = "<group>"; };
+		7884DC61156FAE4000679076 /* DetailsViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController_iPad.xib; sourceTree = "<group>"; };
+		7884DC63156FB02F00679076 /* WebDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDetailsController.h; sourceTree = "<group>"; };
+		7884DC64156FB03000679076 /* WebDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebDetailsController.m; sourceTree = "<group>"; };
+		7884DC65156FB03000679076 /* WebDetailsController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebDetailsController_iPhone.xib; sourceTree = "<group>"; };
+		7884DC68156FB06100679076 /* WebDetailsController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebDetailsController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7884DBE7156F8C3000679076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7884DBEF156F8C3000679076 /* UIKit.framework in Frameworks */,
+				7884DBF1156F8C3000679076 /* Foundation.framework in Frameworks */,
+				7884DBF3156F8C3000679076 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		787E2FBC1573319000E3D6AE /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				787E2FBD1573319C00E3D6AE /* icon_57.png */,
+				787E2FBE1573319C00E3D6AE /* icon_72.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		787E2FD215734DFB00E3D6AE /* IPad */ = {
+			isa = PBXGroup;
+			children = (
+				787E2FD415734E0900E3D6AE /* background_iPad.png */,
+				787E2FD515734E0900E3D6AE /* loginfromangellist_iPad.png */,
+				787E2FD615734E0900E3D6AE /* loginfromfacebook_iPad.png */,
+				787E2FD715734E0900E3D6AE /* loginfromtwitter_iPad.png */,
+			);
+			name = IPad;
+			sourceTree = "<group>";
+		};
+		7884DBDF156F8C3000679076 = {
+			isa = PBXGroup;
+			children = (
+				7884DBF4156F8C3000679076 /* Angellist */,
+				7884DBED156F8C3000679076 /* Frameworks */,
+				7884DBEB156F8C3000679076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7884DBEB156F8C3000679076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7884DBEA156F8C3000679076 /* Angellist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7884DBED156F8C3000679076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7884DBEE156F8C3000679076 /* UIKit.framework */,
+				7884DBF0156F8C3000679076 /* Foundation.framework */,
+				7884DBF2156F8C3000679076 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7884DBF4156F8C3000679076 /* Angellist */ = {
+			isa = PBXGroup;
+			children = (
+				787E2FD215734DFB00E3D6AE /* IPad */,
+				787E2FBC1573319000E3D6AE /* icons */,
+				7884DC59156FADD000679076 /* AsyncImageView.h */,
+				7884DC5A156FADD100679076 /* AsyncImageView.m */,
+				7884DC2E156F9FEE00679076 /* IPhone */,
+				7884DBFD156F8C3000679076 /* AppDelegate.h */,
+				7884DBFE156F8C3000679076 /* AppDelegate.m */,
+				7884DC00156F8C3000679076 /* ViewController.h */,
+				7884DC01156F8C3000679076 /* ViewController.m */,
+				7884DC03156F8C3000679076 /* ViewController_iPhone.xib */,
+				7884DC06156F8C3000679076 /* ViewController_iPad.xib */,
+				7884DBF5156F8C3000679076 /* Supporting Files */,
+				7884DC27156F9D9000679076 /* LoginViewController.h */,
+				7884DC28156F9D9100679076 /* LoginViewController.m */,
+				7884DC29156F9D9100679076 /* LoginViewController_iPhone.xib */,
+				7884DC2C156F9E0600679076 /* LoginViewController_iPad.xib */,
+				7884DC3D156FA24600679076 /* ContainerViewController.h */,
+				7884DC3E156FA24600679076 /* ContainerViewController.m */,
+				7884DC3F156FA24600679076 /* ContainerViewController_iPhone.xib */,
+				7884DC42156FA2DF00679076 /* ContainerViewController_iPad.xib */,
+				7884DC44156FAA5300679076 /* ActivityViewController.h */,
+				7884DC45156FAA5400679076 /* ActivityViewController.m */,
+				7884DC46156FAA5400679076 /* ActivityViewController_iPhone.xib */,
+				7884DC53156FAAA300679076 /* ActivityViewController_iPad.xib */,
+				7884DC49156FAA6A00679076 /* StartUpViewController.h */,
+				7884DC4A156FAA6A00679076 /* StartUpViewController.m */,
+				7884DC4B156FAA6A00679076 /* StartUpViewController_iPhone.xib */,
+				7884DC55156FAAD000679076 /* StartUpViewController_iPad.xib */,
+				7884DC4E156FAA7F00679076 /* InboxViewController.h */,
+				7884DC4F156FAA7F00679076 /* InboxViewController.m */,
+				7884DC50156FAA7F00679076 /* InboxViewController_iPhone.xib */,
+				7884DC57156FAAE900679076 /* InboxViewController_iPad.xib */,
+				7884DC5C156FAE1100679076 /* DetailsViewController.h */,
+				7884DC5D156FAE1200679076 /* DetailsViewController.m */,
+				7884DC5E156FAE1200679076 /* DetailsViewController_iPhone.xib */,
+				7884DC61156FAE4000679076 /* DetailsViewController_iPad.xib */,
+				7884DC63156FB02F00679076 /* WebDetailsController.h */,
+				7884DC64156FB03000679076 /* WebDetailsController.m */,
+				7884DC65156FB03000679076 /* WebDetailsController_iPhone.xib */,
+				7884DC68156FB06100679076 /* WebDetailsController_iPad.xib */,
+			);
+			path = Angellist;
+			sourceTree = "<group>";
+		};
+		7884DBF5156F8C3000679076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7884DBF6156F8C3000679076 /* Angellist-Info.plist */,
+				7884DBF7156F8C3000679076 /* InfoPlist.strings */,
+				7884DBFA156F8C3000679076 /* main.m */,
+				7884DBFC156F8C3000679076 /* Angellist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7884DC2E156F9FEE00679076 /* IPhone */ = {
+			isa = PBXGroup;
+			children = (
+				787E69E31573A5580090DC7D /* follow.png */,
+				787E69E01573A4200090DC7D /* more.png */,
+				7884DC2F156F9FF900679076 /* back.png */,
+				7884DC30156F9FF900679076 /* background.png */,
+				7884DC31156F9FF900679076 /* filter.png */,
+				7884DC32156F9FF900679076 /* loginfromangellist.png */,
+				7884DC33156F9FF900679076 /* loginfromfacebook.png */,
+				7884DC34156F9FF900679076 /* loginfromtwitter.png */,
+				7884DC35156F9FF900679076 /* navigationbar.png */,
+			);
+			name = IPhone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7884DBE9156F8C3000679076 /* Angellist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7884DC0B156F8C3000679076 /* Build configuration list for PBXNativeTarget "Angellist" */;
+			buildPhases = (
+				7884DBE6156F8C3000679076 /* Sources */,
+				7884DBE7156F8C3000679076 /* Frameworks */,
+				7884DBE8156F8C3000679076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Angellist;
+			productName = Angellist;
+			productReference = 7884DBEA156F8C3000679076 /* Angellist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7884DBE1156F8C3000679076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Antiz Technologies Pvt Ltd";
+			};
+			buildConfigurationList = 7884DBE4156F8C3000679076 /* Build configuration list for PBXProject "Angellist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7884DBDF156F8C3000679076;
+			productRefGroup = 7884DBEB156F8C3000679076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7884DBE9156F8C3000679076 /* Angellist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7884DBE8156F8C3000679076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7884DBF9156F8C3000679076 /* InfoPlist.strings in Resources */,
+				7884DC05156F8C3000679076 /* ViewController_iPhone.xib in Resources */,
+				7884DC08156F8C3000679076 /* ViewController_iPad.xib in Resources */,
+				7884DC2B156F9D9100679076 /* LoginViewController_iPhone.xib in Resources */,
+				7884DC2D156F9E0600679076 /* LoginViewController_iPad.xib in Resources */,
+				7884DC36156F9FF900679076 /* back.png in Resources */,
+				7884DC37156F9FF900679076 /* background.png in Resources */,
+				7884DC38156F9FF900679076 /* filter.png in Resources */,
+				7884DC39156F9FF900679076 /* loginfromangellist.png in Resources */,
+				7884DC3A156F9FF900679076 /* loginfromfacebook.png in Resources */,
+				7884DC3B156F9FF900679076 /* loginfromtwitter.png in Resources */,
+				7884DC3C156F9FF900679076 /* navigationbar.png in Resources */,
+				7884DC41156FA24600679076 /* ContainerViewController_iPhone.xib in Resources */,
+				7884DC43156FA2E000679076 /* ContainerViewController_iPad.xib in Resources */,
+				7884DC48156FAA5400679076 /* ActivityViewController_iPhone.xib in Resources */,
+				7884DC4D156FAA6A00679076 /* StartUpViewController_iPhone.xib in Resources */,
+				7884DC52156FAA8000679076 /* InboxViewController_iPhone.xib in Resources */,
+				7884DC54156FAAA400679076 /* ActivityViewController_iPad.xib in Resources */,
+				7884DC56156FAAD000679076 /* StartUpViewController_iPad.xib in Resources */,
+				7884DC58156FAAE900679076 /* InboxViewController_iPad.xib in Resources */,
+				7884DC60156FAE1200679076 /* DetailsViewController_iPhone.xib in Resources */,
+				7884DC62156FAE4000679076 /* DetailsViewController_iPad.xib in Resources */,
+				7884DC67156FB03100679076 /* WebDetailsController_iPhone.xib in Resources */,
+				7884DC69156FB06100679076 /* WebDetailsController_iPad.xib in Resources */,
+				787E2FBF1573319C00E3D6AE /* icon_57.png in Resources */,
+				787E2FC01573319C00E3D6AE /* icon_72.png in Resources */,
+				787E2FD815734E0900E3D6AE /* background_iPad.png in Resources */,
+				787E2FD915734E0900E3D6AE /* loginfromangellist_iPad.png in Resources */,
+				787E2FDA15734E0900E3D6AE /* loginfromfacebook_iPad.png in Resources */,
+				787E2FDB15734E0900E3D6AE /* loginfromtwitter_iPad.png in Resources */,
+				787E69E11573A4200090DC7D /* more.png in Resources */,
+				787E69E41573A5580090DC7D /* follow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7884DBE6156F8C3000679076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7884DBFB156F8C3000679076 /* main.m in Sources */,
+				7884DBFF156F8C3000679076 /* AppDelegate.m in Sources */,
+				7884DC02156F8C3000679076 /* ViewController.m in Sources */,
+				7884DC2A156F9D9100679076 /* LoginViewController.m in Sources */,
+				7884DC40156FA24600679076 /* ContainerViewController.m in Sources */,
+				7884DC47156FAA5400679076 /* ActivityViewController.m in Sources */,
+				7884DC4C156FAA6A00679076 /* StartUpViewController.m in Sources */,
+				7884DC51156FAA8000679076 /* InboxViewController.m in Sources */,
+				7884DC5B156FADD100679076 /* AsyncImageView.m in Sources */,
+				7884DC5F156FAE1200679076 /* DetailsViewController.m in Sources */,
+				7884DC66156FB03100679076 /* WebDetailsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7884DBF7156F8C3000679076 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7884DBF8156F8C3000679076 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7884DC03156F8C3000679076 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7884DC04156F8C3000679076 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		7884DC06156F8C3000679076 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7884DC07156F8C3000679076 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7884DC09156F8C3000679076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rega Interactive";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rega Interactive";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "FD1F0C70-D123-4C70-B288-3B8839779A98";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD1F0C70-D123-4C70-B288-3B8839779A98";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7884DC0A156F8C3000679076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rega Interactive";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rega Interactive";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "FD1F0C70-D123-4C70-B288-3B8839779A98";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD1F0C70-D123-4C70-B288-3B8839779A98";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7884DC0C156F8C3000679076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Angellist/Angellist-Prefix.pch";
+				INFOPLIST_FILE = "Angellist/Angellist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7884DC0D156F8C3000679076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Angellist/Angellist-Prefix.pch";
+				INFOPLIST_FILE = "Angellist/Angellist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7884DBE4156F8C3000679076 /* Build configuration list for PBXProject "Angellist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7884DC09156F8C3000679076 /* Debug */,
+				7884DC0A156F8C3000679076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7884DC0B156F8C3000679076 /* Build configuration list for PBXNativeTarget "Angellist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7884DC0C156F8C3000679076 /* Debug */,
+				7884DC0D156F8C3000679076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7884DBE1156F8C3000679076 /* Project object */;
+}
